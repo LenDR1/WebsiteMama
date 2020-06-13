@@ -40,20 +40,16 @@ nav .logo{
 nav ul{
   float: left;
   margin: -5px 0;
-  padding: 0;
 }
 nav ul li{
   float: left;
   list-style: none;
   position: relative;
 }
-nav ul li:hover{
-  background: #555555;
-}
 nav ul li a{
   display: block;
   font-size: 20px;
-  padding: 21.8px 14px;
+  padding: 21.8px 20px;
 }
 nav ul li ul{
   display: none;
