@@ -3,7 +3,7 @@
   <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-	<title>Noëlla Nechelput</title>
+	<title>Noëlla Nechelput | Homepage</title>
 	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 	<link rel="stylesheet" href="mama.css">
@@ -12,124 +12,49 @@
 
 	<body>
 		<div class="container">
-			<div class="main">
 				<header>
-					<h1 class="logo">Noëlla</h1>
-					<nav>
-						<ul class="nav_links">
-							<li><a href="#">Over mij</a></li>
+					<div class="logo-container">
+						<a href="#" class="logo">Noëlla</h1>
+					</div>
+					<nav class="nav_header">
+						<ul class="nav-links">
+							<li><a href="#" class="nav-link">Homepage</a></li>
+							<li><a href="#" class="nav-link">My Art</a>
+								<ul class="nav-dropdown">
+									<li><a href="photos.html" class="nav-link-drop">Paint on Fabric</a></li>
+									<li><a href="#" class="nav-link-drop">Paint on Textile</a></li>
+									<li><a href="#" class="nav-link-drop">Statues</a></li>
+								</ul>
+							</li>
+							<li><a href="about.html" class="nav-link">About me</a></li>
 						</ul>
 					</nav>
-					<a class="cta" href="#"><button>Contact</button></a>
+					<div class="cart">
+						<a href="#"><button class="cta">Contact</button></a>
+					</div>
 				</header>
 				<main>
-				<div class="box">
-				<!-- Slider main container -->
-					<div class="swiper-container">
-						<!-- Additional required wrapper -->
-						<div class="swiper-wrapper">
-							<!-- Slides -->
-							<div class="swiper-slide">
-								<div class="imgBx">
-									<img class="img1" src="H1.jpg">
-								</div>
-								<div class="details">
-									<h3>Noëlla Nechelput <br><span>Titel</span></h3>
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="imgBx">
-									<img class="img1" src="H2.jpg">
-								</div>
-								<div class="details">
-									<h3>Noëlla Nechelput <br><span>Titel</span></h3>
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="imgBx">
-									<img class="img1" src="H3.JPG">
-								</div>
-								<div class="details">
-									<h3>Noëlla Nechelput <br><span>Titel</span></h3>
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="imgBx">
-									<img class="img1" src="H4.jpg">
-								</div>
-								<div class="details">
-									<h3>Noëlla Nechelput <br><span>Titel</span></h3>
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="imgBx">
-									<img class="img1" src="H5.jpg">
-								</div>
-								<div class="details">
-									<h3>Noëlla Nechelput <br><span>Titel</span></h3>
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="imgBx">
-									<img class="img1" src="H6.jpg">
-								</div>
-								<div class="details">
-									<h3>Noëlla Nechelput <br><span>Titel</span></h3>
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="imgBx">
-									<img class="img1" src="H7.JPG">
-								</div>
-								<div class="details">
-									<h3>Noëlla Nechelput <br><span>Titel</span></h3>
-								</div>
-							</div>
+					<div class="box">
+						<div class="box-text">
+							<p>
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+								when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+								It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+								It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+								and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+							</p>
 						</div>
-						<!-- If we need pagination -->
-						<div class="swiper-pagination"></div>
-
-						<!-- If we need navigation buttons -->
-						<div class="swiper-button-prev"></div>
-						<div class="swiper-button-next"></div>
-
-						<!-- If we need scrollbar -->
-						<div class="swiper-scrollbar"></div>
+						<div class="box-photo">
+							<img src="V1.jpg" alt="photo">
+						</div>
 					</div>
-					
-					<script src="https://unpkg.com/swiper/js/swiper.js"></script>
-					<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-					<script>
-						var mySwiper = new Swiper ('.swiper-container', {
-						// Optional parameters
-						effect: 'coverflow',
-							grabCursor: true,
-							centeredSlides: true,
-							slidesPerView: 'auto',
-							coverflowEffect: {
-								rotate: 0,
-								stretch: 0,
-								depth: 100,
-								modifier: 1,
-								slideShadows : true,
-							},
-						// If we need pagination
-						pagination: {
-							el: '.swiper-pagination',
-						},
-					
-						// Navigation arrows
-						navigation: {
-							nextEl: '.swiper-button-next',
-							prevEl: '.swiper-button-prev',
-						},
-						})
-						</script>
-				</div>
 				</main>
-			</div>
 		</div>
 		<footer id="footer">
+			<div class="footer-text">
+
+			</div>
 			&copy; nechelput-noella.com | Designed by Lenneth De Ryck
 		</footer>
 	</body>

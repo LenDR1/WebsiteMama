@@ -60,7 +60,6 @@ header{
   width: 200px;
   display: block;
   text-align: center;
-  align-items: center;
 
 }
 .nav-link{
@@ -112,9 +111,9 @@ footer{
 }
 .box{
   display: flex;
+  min-height: 80vh;
   width: 80%;
   margin: auto;
-  height: 80vh;
   align-items: center;
   animation: drop 1s ease;
 }
@@ -124,8 +123,8 @@ footer{
 }
 .box-text p{
   color: rgb(255, 255, 255);
-  font-size: 20px;
-  padding: 50px;
+  font-size: 15px;
+  padding: 20px;
   font-family: "Montserrat", sans-serif;
 }
 .box-photo{
