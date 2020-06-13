@@ -13,25 +13,21 @@
 	<body>
 		<div class="container">
 				<header>
-					<div class="logo-container">
+					<nav>
 						<a href="index.html" class="logo">Noëlla</h1>
-					</div>
-					<nav class="nav_header">
 						<ul class="nav-links">
-							<li><a href="index.html" class="nav-link">Homepage</a></li>
-							<li><a href="" class="nav-link">My Art</a>
+							<li><a href="index.html">Homepage</a></li>
+							<li><a href="#">My Art</a>
 								<ul class="nav-dropdown">
-									<li><a href="photos.html" class="nav-link-drop">Paint on Fabric</a></li>
-									<li><a href="#" class="nav-link-drop">Paint on Textile</a></li>
-									<li><a href="#" class="nav-link-drop">Statues</a></li>
+									<li><a href="photos.html">Paint on Fabric</a></li>
+									<li><a href="#">Paint on Textile</a></li>
+									<li><a href="#">Statues</a></li>
 								</ul>
 							</li>
-							<li><a href="about.html" class="nav-link">About me</a></li>
+							<li><a href="about.html">About me</a></li>
+							<li><a href="about.html">Contact</a></li>
 						</ul>
 					</nav>
-					<div class="cart">
-						<a href="#"><button class="cta">Contact</button></a>
-					</div>
 				</header>
 				<main>
 				<div class="box">
@@ -50,7 +46,7 @@
 							</div>
 							<div class="swiper-slide">
 								<div class="imgBx">
-									<img class="img1" src="H2.jpg">
+									<img class="img1" src="V2.jpg">
 								</div>
 								<div class="details">
 									<h3>Noëlla Nechelput <br><span>Titel</span></h3>
@@ -113,6 +109,7 @@
 					<script>
 						var mySwiper = new Swiper ('.swiper-container', {
 						// Optional parameters
+						
 						effect: 'coverflow',
 							grabCursor: true,
 							centeredSlides: true,
@@ -120,7 +117,7 @@
 							coverflowEffect: {
 								rotate: 0,
 								stretch: 0,
-								depth: 100,
+								depth: 80,
 								modifier: 1,
 								slideShadows : true,
 							},
