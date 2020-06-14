@@ -3,10 +3,12 @@
   <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-	<title>Noëlla Nechelput</title>
+	<title>Noëlla Nechelput | Fabric</title>
 	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 	<link rel="stylesheet" href="photos.css">
+	<link rel="icon" type="image/png" href="Test.png" sizes="32x32" />
+	<script src="https://kit.fontawesome.com/141a88bda1.js" crossorigin="anonymous"></script>
   </head>
 
 
@@ -25,13 +27,13 @@
 								</ul>
 							</li>
 							<li><a href="about.html">About me</a></li>
-							<li><a href="about.html">Contact</a></li>
+							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</nav>
 				</header>
 				<main>
 				<div class="box">
-				<!-- Slider main container -->
+					<!-- Slider main container -->
 				<div class="swiper-container">
 					<!-- Additional required wrapper -->
 					<div class="swiper-wrapper">
@@ -191,7 +193,6 @@
 					// Optional parameters
 					
 					effect: 'coverflow',
-						grabCursor: true,
 						centeredSlides: true,
 						slidesPerView: 'auto',
 						coverflowEffect: {
@@ -204,6 +205,7 @@
 					// If we need pagination
 					pagination: {
 						el: '.swiper-pagination',
+						clickable: true,
 					},
 				
 					// Navigation arrows
@@ -213,10 +215,17 @@
 					},
 					})
 					</script>
+				</div>
+				</main>
 		</div>
 		<footer id="footer">
 			<div class="footer-text">
-
+				<a href="#" class="social-icon">
+					<i class="fab fa-instagram-square"></i>
+				</a>
+				<a href="#" class="social-icon2">
+					<i class="fab fa-facebook"></i>
+				</a>
 			</div>
 			&copy; nechelput-noella.com | Designed by Lenneth De Ryck
 		</footer>
