@@ -24,6 +24,7 @@ nav{
   min-height: 10vh;
   font-family: 'Montserrat', sans-serif;
   background: #272727;
+  animation: drop 1s ease;
 }
 .logo{
   color: white;
