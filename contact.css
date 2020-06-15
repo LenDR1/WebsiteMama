@@ -110,7 +110,8 @@ nav{
     align-items: center;
     width: 50%;
     opacity: 0;
-    transition: all 0.2s ease-in;
+    pointer-events: none;
+    transition: all 0.5s ease-in;
   }
   .nav-links li{
     opacity: 0;
@@ -127,6 +128,7 @@ nav{
 }
 .nav-active{
   opacity: 1;
+  pointer-events: all;
 }
 @keyframes navLinkFade{
   from{
@@ -218,20 +220,7 @@ footer{
 .formContainer .formBx form .inputBox textarea{
   height: 100px;
 }
-.formContainer .formBx form .inputBox input[type="submit"]{
-  background: #fff;
-  padding: 8px 20px;
-  margin-top: -10px;
-  width: 100px;
-  cursor: pointer;
-  background: #2b8fbd;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 400;
-  border: none;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
+
 .formContainer .formBx form .inputBox input[type="submit"]:focus{
   background: #1bfaad;
   color: #111;
