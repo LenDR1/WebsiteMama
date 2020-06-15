@@ -83,7 +83,7 @@ nav{
 }
 @media screen and (max-width: 1150px){
   .nav-links{
-    width: 50%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 767px){
@@ -164,9 +164,9 @@ footer{
 }
 .box-text p{
   color: #272727c2;
-  font-size: 21px;
+  font-size: 23px;
   font-family: "Montserrat", sans-serif;
-  padding: 50px;
+  padding: 20px;
 }
 .box-photo{
   flex: 1;
@@ -175,6 +175,81 @@ footer{
 }
 .box-photo img{
   height: 60vh;
+}
+@media screen and (max-width: 1500px){
+  .box-text p{
+    color: #272727c2;
+    font-size: 21px;
+    font-family: "Montserrat", sans-serif;
+    padding: 20px;
+  }
+  .box-photo img{
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 1270px){
+  .box-text p{
+    color: #272727c2;
+    font-size: 19px;
+    font-family: "Montserrat", sans-serif;
+    padding: 17px;
+  }
+  .box-photo img{
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 1180px){
+  .box-text p{
+    color: #272727c2;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    padding: 18px;
+  }
+  .box-photo img{
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 1100px){
+  .box{
+    flex-direction: column;
+    height: 130vh;
+  }
+  .box-photo img{
+    width: 70vh;
+    margin-bottom: 10%;
+  }
+  .box-text{
+    flex: 1;
+    margin-top: 5%;
+    background: rgba(255, 255, 255, 0.397);
+    width: 70vh;
+  }
+  .box-text p{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px){
+  .box{
+    flex-direction: column;
+    height: 120vh;
+  }
+  .box-photo img{
+    width: 60vh;
+    margin-bottom: 10vh;
+  }
+  .box-photo{
+    width: 60vh;
+    margin-bottom: 10%;
+  }
+  .box-text{
+    flex: 1;
+    margin-top: 5%;
+    background: rgba(255, 255, 255, 0.397);
+    width: 60vh;
+  }
+  .box-text p{
+    font-size: 18px;
+  }
 }
 
 @keyframes drop{
