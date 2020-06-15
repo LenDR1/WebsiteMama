@@ -92,6 +92,9 @@ nav{
   body{
     overflow-x: hidden;
   }
+  .container{
+    overflow-x: hidden;
+  }
   .nav-links{
     position: absolute;
     right: 0px;
