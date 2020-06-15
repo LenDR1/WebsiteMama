@@ -146,36 +146,49 @@ footer{
   color: #272727;
   text-align: center;
   align-items: center;
+  animation: drop 1s ease;
 }
 .footer-text{
   height: 60%;
 }
 .box{
   display: flex;
-  min-height: 80vh;
-  width: 80%;
-  margin: auto;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
+  min-height: 80vh;
   animation: drop 1s ease;
-}
-.box-text{
-  flex: 1;
-  height: 60vh;
-  background: rgba(255, 255, 255, 0.397);
-}
-.box-text p{
-  color: #272727c2;
-  font-size: 15px;
-  padding: 20px;
-  font-family: "Montserrat", sans-serif;
+  margin: 0 50px;
 }
 .box-photo{
   flex: 1;
-  z-index: 0;
-  height: 60vh;
+  padding: 50px;
 }
 .box-photo img{
-  height: 60vh;
+  height: 30vw;
+}
+.box-text{
+  flex: 1;
+  color: rgb(230, 230, 230);
+  margin-right: -50px;
+  padding: 25px;
+  font-size: 16px;
+  background-color: rgb(134, 134, 134);
+}
+@media screen and (max-width: 850px){
+  .box{
+    flex-direction: column-reverse;
+  }
+  .box-photo img{
+    height: 60vw;
+  }
+  .box-text{
+    flex: 1;
+    padding-bottom: 0px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-top: -55px;
+  }
 }
 
 @keyframes drop{
@@ -196,24 +209,41 @@ footer{
     opacity: 1;
   }
 }
-.social-icon{
-  font-size: 30px;
-  margin-right: 20px;
-  background: linear-gradient(to bottom right,rgb(64,93,230),rgb(131,58,180),rgb(225,48,108),rgb(245,96,64),rgb(252,175,69));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  opacity: 0.5;
-  transition: all 0.5s;
+.footer-text ul{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
-.social-icon2{
-  font-size: 30px;
-  color: #3b5998;
-  opacity: 0.5;
-  transition: all 0.5s;
+.footer-text ul li{
+  list-style: none;
+  margin: 0 15px;
 }
-.social-icon:hover{
-  opacity: 1;
+.footer-text ul li .fab{
+  font-size: 20px;
+  line-height: 30px;
+  transition: 0.6s;
+  color: #000;
 }
-.social-icon2:hover{
-  opacity: 1;
+.footer-text ul li .fab:hover{
+  color: #fff;
+}
+.footer-text ul li a{
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0,0,0,0.5);
+}
+.footer-text ul li a:hover{
+  transform: translateY(-5px);
+}
+.footer-text ul li:nth-child(1) a:hover{
+  background-color: #3b5999;
+}
+.footer-text ul li:nth-child(2) a:hover{
+  background-color: #e4405f;
 }

@@ -145,6 +145,7 @@ footer{
   color: #272727;
   text-align: center;
   align-items: center;
+  animation: drop 1s ease;
 }
 .footer-text{
   height: 60%;
@@ -271,4 +272,42 @@ footer{
 .swiper-pagination-bullet-active {
   color:#fff;
   background: #007aff;
+}
+.footer-text ul{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.footer-text ul li{
+  list-style: none;
+  margin: 0 15px;
+}
+.footer-text ul li .fab{
+  font-size: 20px;
+  line-height: 30px;
+  transition: 0.6s;
+  color: #000;
+}
+.footer-text ul li .fab:hover{
+  color: #fff;
+}
+.footer-text ul li a{
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0,0,0,0.5);
+}
+.footer-text ul li a:hover{
+  transform: translateY(-5px);
+}
+.footer-text ul li:nth-child(1) a:hover{
+  background-color: #3b5999;
+}
+.footer-text ul li:nth-child(2) a:hover{
+  background-color: #e4405f;
 }
