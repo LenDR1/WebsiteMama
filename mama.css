@@ -267,7 +267,7 @@ footer{
   }
   
 }
-@media screen and (max-height: 420px){
+@media screen and (max-height: 450px){
   .box-text p{
     font-size: 11px;
   }
