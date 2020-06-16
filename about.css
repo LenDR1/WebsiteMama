@@ -109,6 +109,7 @@ nav{
   }
   .nav-links li{
     opacity: 0;
+    margin-left: -32px;
   }
   .burger{
     display: block;
@@ -164,19 +165,26 @@ footer{
   margin: 0 50px;
 }
 .box-photo{
-  flex: 1;
+  flex: 2;
   padding: 50px;
 }
 .box-photo img{
   height: 30vw;
 }
 .box-text{
-  flex: 1;
+  flex: 3;
   color: rgb(230, 230, 230);
   margin-right: -50px;
   padding: 25px;
   font-size: 16px;
   background-color: rgb(134, 134, 134);
+}
+@media screen and (max-width: 1200px){
+  .box-text{
+    padding: 20px;
+    font-size: 15px;
+    background-color: rgb(134, 134, 134);
+  }
 }
 @media screen and (max-width: 850px){
   .box{
