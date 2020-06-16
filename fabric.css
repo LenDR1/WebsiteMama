@@ -10,7 +10,6 @@ html, body {
   height: 100%;
   overflow-x: hidden;
 }
-
 li, a, button{
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -92,6 +91,9 @@ nav{
   body{
     overflow-x: hidden;
   }
+  footer{
+    height: 15vh;
+  }
   .nav-links{
     position: absolute;
     right: 0px;
@@ -156,45 +158,10 @@ footer{
 }
 .box{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   min-height: 80vh;
-  animation: drop 1s ease;
-  margin: 0 50px;
-}
-.box-photo{
-  flex: 1;
-  padding: 50px;
-}
-.box-photo img{
-  height: 30vw;
-}
-.box-text{
-  flex: 1;
-  color: rgb(230, 230, 230);
-  margin-right: -50px;
-  padding: 25px;
-  font-size: 16px;
-  background-color: rgb(134, 134, 134);
-}
-@media screen and (max-width: 850px){
-  .box{
-    flex-direction: column-reverse;
-  }
-  footer{
-    height: 15vh;
-  }
-  .box-photo img{
-    height: 60vw;
-  }
-  .box-text{
-    flex: 1;
-    padding-bottom: 0px;
-    margin-right: 0px;
-    margin-bottom: 50px;
-    margin-top: -55px;
-  }
+  width: 90%;
+  margin: auto;
+  align-items: center;
 }
 
 @keyframes drop{
@@ -207,13 +174,169 @@ footer{
     transform: translateY(0px)
   }
 }
-@keyframes show{
-  0%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 1;
-  }
+.social-icon{
+  font-size: 30px;
+  margin-right: 20px;
+  background: linear-gradient(to bottom right,rgb(64,93,230),rgb(131,58,180),rgb(225,48,108),rgb(245,96,64),rgb(252,175,69));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+.social-icon2{
+  font-size: 30px;
+  color: #3b5998;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+.social-icon:hover{
+  opacity: 1;
+}
+.social-icon2:hover{
+  opacity: 1;
+}
+.swiper-container {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  animation: drop 1s ease;
+  position: relative;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 450px;
+  background: #fff;
+}
+.swiper-slide .imgBx{
+  width: 100%;
+  height: 390px;
+}
+.swiper-slide .imgBx .img1{
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide .details{
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 20px;
+}
+.swiper-slide .details h3{
+  margin: -8px 0;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+.swiper-slide .details h3 span{
+  font-size: 16px;
+  color: rgb(230, 38, 38);
+}
+.swiper-slide:nth-child(2n) {
+  background-position: center;
+  background-size: cover;
+  margin: 50px 0 0 0;
+  width: 500px;
+  height: 350px;
+  background: #fff;
+}
+.swiper-slide:nth-child(2n) .imgBx{
+  width: 100%;
+  height: 280px;
+}
+.swiper-slide:nth-child(2n) .imgBx .img1{
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide:nth-child(2n) .details{
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 20px;
+}
+.swiper-slide:nth-child(2n) .details h3{
+  margin:0;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+.swiper-slide:nth-child(8) {
+  background-position: center;
+  background-size: cover;
+  margin: 10px 0 0 0;
+  width: 400px;
+  height: 400px;
+  background: #fff;
+}
+.swiper-slide:nth-child(8) .imgBx{
+  width: 100%;
+  height: 330px;
+}
+.swiper-slide:nth-child(8) .imgBx .img1{
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide:nth-child(8) .details{
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 20px;
+}
+.swiper-slide:nth-child(8) .details h3{
+  margin:0;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+.swiper-slide:nth-child(10) {
+  background-position: center;
+  background-size: cover;
+  margin: -30px 0 0 0;
+  width: 300px;
+  height: 500px;
+  background: #fff;
+}
+.swiper-scrollbar{
+  display: none;
+}
+.swiper-slide:nth-child(10) .imgBx{
+  width: 100%;
+  height: 430px;
+}
+.swiper-slide:nth-child(10) .imgBx .img1{
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide:nth-child(10) .details{
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 20px;
+}
+.swiper-slide:nth-child(10) .details h3{
+  margin:0;
+  padding: 0;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+.swiper-slide .details h3 span{
+  font-size: 16px;
+  color: rgb(230, 38, 38);
+}
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color:#000;
+  opacity: 1;
+  background: rgba(0,0,0,0.2);
+}
+.swiper-pagination-bullet-active {
+  color:#fff;
+  background: #007aff;
 }
 .footer-text{
   position: relative;

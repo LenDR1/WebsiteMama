@@ -220,10 +220,8 @@ footer{
 .formContainer .formBx form .inputBox textarea{
   height: 100px;
 }
-
 .formContainer .formBx form .inputBox input[type="submit"]:focus{
-  background: #1bfaad;
-  color: #111;
+  background: #858585;
 }
 .formContainer .formBx form .inputBox span{
   position: absolute;
@@ -313,11 +311,16 @@ footer{
     opacity: 1;
   }
 }
+.footer-text{
+  position: relative;
+}
 .footer-text ul{
   display: flex;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .footer-text ul li{
   list-style: none;
@@ -329,7 +332,7 @@ footer{
   transition: 0.6s;
   color: #000;
 }
-.footer-text ul li .fab:hover{
+.footer-text ul li:hover .fab{
   color: #fff;
 }
 .footer-text ul li a{

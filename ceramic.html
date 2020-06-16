@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>Noëlla Nechelput | Ceramic</title>
+	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+	<link rel="stylesheet" href="ceramic.css">
+	<link rel="icon" type="image/png" href="Test.png" sizes="32x32" />
+	<script src="https://kit.fontawesome.com/141a88bda1.js" crossorigin="anonymous"></script>
+  </head>
+
+
+	<body>
+		<div class="container">
+			<nav>
+				<div class="logo">
+					<a href="index.html"><h4 class ="logo">Noëlla</h4></a>
+				</div>
+				<ul class="nav-links">
+					<li class="weg"><a href="index.html">Homepage</a></li>
+					<li class="weg"><a href="#">My Work</a>
+						<ul class="nav-dropdown">
+							<li><a href="fabric.html">Paint on Fabric</a></li>
+							<li><a href="photos.html">Paint on Textile</a></li>
+							<li><a href="#">Ceramic</a></li>
+						</ul>
+					</li>
+					<li class="toon"><a href="index.html">Homepage</a></li>
+					<li class="toon"><a href="fabric.html">Paint on Fabric</a></li>
+					<li class="toon"><a href="photos.html">Paint on Textile</a></li>
+					<li class="toon"><a href="#">Ceramic</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+				<div class="burger">
+					<div class="line1"></div>
+					<div class="line2"></div>
+					<div class="line3"></div>
+				</div>	
+			</nav>
+			<script src="app.js"></script>
+				<main>
+				<div class="box">
+					<!-- Slider main container -->
+				<div class="swiper-container">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide">
+							<div class="imgBx">
+								<img class="img1" src="Ceramic01.PNG">
+							</div>
+							<div class="details">
+								<h3>Noëlla Nechelput <br><span>Titel</span></h3>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="imgBx">
+								<img class="img1" src="Ceramic02.PNG">
+							</div>
+							<div class="details">
+								<h3>Noëlla Nechelput <br><span>Titel</span></h3>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="imgBx">
+								<img class="img1" src="Ceramic03.PNG">
+							</div>
+							<div class="details">
+								<h3>Noëlla Nechelput <br><span>Titel</span></h3>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="imgBx">
+								<img class="img1" src="Ceramic04.PNG">
+							</div>
+							<div class="details">
+								<h3>Noëlla Nechelput <br><span>Titel</span></h3>
+							</div>
+						</div>
+						
+					</div>
+					<!-- If we need pagination -->
+					<div class="swiper-pagination"></div>
+
+					<!-- If we need navigation buttons -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+
+					<!-- If we need scrollbar -->
+					<div class="swiper-scrollbar"></div>
+				</div>
+				
+				<script src="https://unpkg.com/swiper/js/swiper.js"></script>
+				<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+				<script>
+					var mySwiper = new Swiper ('.swiper-container', {
+					// Optional parameters
+					
+					effect: 'coverflow',
+						centeredSlides: true,
+						slidesPerView: 'auto',
+						coverflowEffect: {
+							rotate: 0,
+							stretch: 0,
+							depth: 80,
+							modifier: 1,
+							slideShadows : true,
+						},
+					// If we need pagination
+					pagination: {
+						el: '.swiper-pagination',
+						clickable: true,
+					},
+				
+					// Navigation arrows
+					navigation: {
+						nextEl: '.swiper-button-next',
+						prevEl: '.swiper-button-prev',
+					},
+					})
+					</script>
+				</div>
+				</main>
+		</div>
+		<footer id="footer">
+			<div class="footer-text">
+				<ul>
+					<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href=""><i class="fab fa-instagram"></i></a></li>
+				</ul>
+			</div>
+			&copy; nechelput-noella.com | Designed by Lenneth De Ryck
+		</footer>
+	</body>
+
+</html>
