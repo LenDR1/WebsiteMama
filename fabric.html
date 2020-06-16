@@ -6,6 +6,8 @@
 	<title>Noëlla Nechelput | Fabric</title>
 	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+	<link rel="stylesheet" href="lightbox.min.css">
+	<script src="lightbox-plus-jquery.min.js"></script>
 	<link rel="stylesheet" href="fabric.css">
 	<link rel="icon" type="image/png" href="Test.png" sizes="32x32" />
 	<script src="https://kit.fontawesome.com/141a88bda1.js" crossorigin="anonymous"></script>
@@ -50,7 +52,7 @@
 						<!-- Slides -->
 						<div class="swiper-slide">
 							<div class="imgBx">
-								<img class="img1" src="Fabric04.jpg">
+								<a href="Fabric04.jpg" data-lightbox="mygallary" data-title="W60 x H80 cm"><img class="img1" src="Fabric04.jpg"></a>
 							</div>
 							<div class="details">
 								<h3>Noëlla Nechelput <br><span>W60 x H80 cm</span></h3>
@@ -58,7 +60,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="imgBx">
-								<img class="img1" src="Fabric06.JPG">
+								<a href="Fabric06.JPG" data-lightbox="mygallary" data-title="W80 x H60 cm"><img class="img1" src="Fabric06.JPG"></a>
 							</div>
 							<div class="details">
 								<h3>Noëlla Nechelput <br><span>W80 x H60 cm</span></h3>
@@ -66,7 +68,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="imgBx">
-								<img class="img1" src="Fabric07.jpg">
+								<a href="Fabric07.jpg" data-lightbox="mygallary" data-title="W100 x H200 cm"><img class="img1" src="Fabric07.jpg"></a>
 							</div>
 							<div class="details">
 								<h3>Noëlla Nechelput <br><span>W100 x H200 cm</span></h3>
@@ -74,7 +76,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="imgBx">
-								<img class="img1" src="Fabric08.jpg">
+								<a href="Fabric08.jpg" data-lightbox="mygallary" data-title="W120 x H80 cm"><img class="img1" src="Fabric08.jpg"></a>
 							</div>
 							<div class="details">
 								<h3>Noëlla Nechelput <br><span>W120 x H80 cm</span></h3>
@@ -82,7 +84,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="imgBx">
-								<img class="img1" src="Fabric05.JPG">
+								<a href="Fabric05.JPG" data-lightbox="mygallary" data-title="W80 x H120 cm"><img class="img1" src="Fabric05.JPG"></a>
 							</div>
 							<div class="details">
 								<h3>Noëlla Nechelput <br><span>W80 x H120 cm</span></h3>
@@ -90,7 +92,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="imgBx">
-								<img class="img1" src="Fabric03.jpg">
+								<a href="Fabric03.jpg" data-lightbox="mygallary" data-title="W60 x H50 cm"><img class="img1" src="Fabric03.jpg"></a>
 							</div>
 							<div class="details">
 								<h3>Noëlla Nechelput <br><span>W60 x H50 cm</span></h3>
@@ -98,7 +100,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="imgBx">
-								<img class="img1" src="Fabric01.JPG">
+								<a href="Fabric01.JPG" data-lightbox="mygallary" data-title="W60 x H80 cm"><img class="img1" src="Fabric01.JPG"></a>
 							</div>
 							<div class="details">
 								<h3>Noëlla Nechelput <br><span>W60 x H80 cm</span></h3>
@@ -106,7 +108,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="imgBx">
-								<img class="img1" src="Fabric02.PNG">
+								<a href="Fabric02.PNG" data-lightbox="mygallary" data-title="W50 x H50 cm"><img class="img1" src="Fabric02.PNG"></a>
 							</div>
 							<div class="details">
 								<h3>Noëlla Nechelput <br><span>W50 x H50 cm</span></h3>
@@ -114,7 +116,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="imgBx">
-								<img class="img1" src="Fabric09.PNG">
+								<a href="Fabric09.PNG" data-lightbox="mygallary" data-title="W80 x H120 cm"><img class="img1" src="Fabric09.PNG"></a>
 							</div>
 							<div class="details">
 								<h3>Noëlla Nechelput <br><span>W80 x H120 cm</span></h3>
@@ -122,7 +124,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="imgBx">
-								<img class="img1" src="Fabric10.JPG">
+								<a href="Fabric10.JPG" data-lightbox="mygallary" data-title="W80 x H200 cm"><img class="img1" src="Fabric10.JPG"></a>
 							</div>
 							<div class="details">
 								<h3>Noëlla Nechelput <br><span>W80 x H200 cm</span></h3>
@@ -156,10 +158,6 @@
 							modifier: 1,
 							slideShadows : true,
 						},
-						autoplay: {
-        					delay: 2500,
-        					disableOnInteraction: false,
-      					},
 					// If we need pagination
 					pagination: {
 						el: '.swiper-pagination',
@@ -183,7 +181,7 @@
 					<li><a href="https://www.instagram.com/noellanechelput/?hl=nl"><i class="fab fa-instagram"></i></a></li>
 				</ul>
 			</div>
-			&copy; nechelput-noella.com | Designed by Lenneth De Ryck
+			&copy; 2020 nechelput-noella.be | Designed by Lenneth D.R
 		</footer>
 	</body>
 
