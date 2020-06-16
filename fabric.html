@@ -22,13 +22,13 @@
 					<li class="weg"><a href="index.html">Homepage</a></li>
 					<li class="weg"><a href="#">My Work</a>
 						<ul class="nav-dropdown">
-							<li><a href="#">Paint on Fabric</a></li>
+							<li><a href="#">Paint on Canvas</a></li>
 							<li><a href="photos.html">Paint on Textile</a></li>
 							<li><a href="ceramic.html">Ceramic</a></li>
 						</ul>
 					</li>
 					<li class="toon"><a href="index.html">Homepage</a></li>
-					<li class="toon"><a href="#">Paint on Fabric</a></li>
+					<li class="toon"><a href="#">Paint on Canvas</a></li>
 					<li class="toon"><a href="photos.html">Paint on Textile</a></li>
 					<li class="toon"><a href="ceramic.html">Ceramic</a></li>
 					<li><a href="about.html">About</a></li>
@@ -147,7 +147,7 @@
 					// Optional parameters
 					
 					effect: 'coverflow',
-						centeredSlides: true,
+					centeredSlides: true,
 						slidesPerView: 'auto',
 						coverflowEffect: {
 							rotate: 0,
@@ -156,6 +156,10 @@
 							modifier: 1,
 							slideShadows : true,
 						},
+						autoplay: {
+        					delay: 2500,
+        					disableOnInteraction: false,
+      					},
 					// If we need pagination
 					pagination: {
 						el: '.swiper-pagination',

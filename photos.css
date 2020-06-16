@@ -209,6 +209,26 @@ footer{
   animation: drop 1s ease;
   position: relative;
 }
+.swiper-button-next{
+  color: rgb(35, 132, 211);
+  font-weight: bold;
+  height: 560px;
+  right: 30%;
+}
+.swiper-button-prev{
+  color: rgb(35, 132, 211);
+  font-weight: bold;
+  height: 560px;
+  left: 30%;
+}
+@media screen and (max-width: 1000px){
+  .swiper-button-prev{
+    left: 10%;
+  }
+  .swiper-button-next{
+    right: 10%;
+  }
+}
 .swiper-slide {
   background-position: center;
   background-size: cover;
