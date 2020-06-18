@@ -194,7 +194,7 @@ footer{
   opacity: 1;
 }
 .swiper-container {
-  width: 100%;
+  width: 95%;
   padding-top: 40px;
   padding-bottom: 50px;
   animation: drop 1s ease;
@@ -202,9 +202,11 @@ footer{
 }
 .swiper-button-next{
   font-weight: bold;
+  right: 50px;
 }
 .swiper-button-prev{
   font-weight: bold;
+  left: 50px;
 }
 .swiper-slide {
   background-position: center;
