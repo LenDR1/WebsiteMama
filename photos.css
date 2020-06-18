@@ -103,7 +103,7 @@ nav{
   .nav-links{
     position: absolute;
     right: 0px;
-    height: 92vh;
+    height: 88vh;
     top: 8vh;
     background: #272727;
     z-index: 2;
@@ -209,7 +209,12 @@ footer{
   animation: drop 1s ease;
   position: relative;
 }
-
+.swiper-button-next{
+  font-weight: bold;
+}
+.swiper-button-prev{
+  font-weight: bold;
+}
 .swiper-slide {
   background-position: center;
   background-size: cover;

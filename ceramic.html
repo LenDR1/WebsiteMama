@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 	<link rel="stylesheet" href="ceramic.css">
+	<link rel="stylesheet" href="lightbox.min.css">
+	<script src="lightbox-plus-jquery.min.js"></script>
 	<link rel="icon" type="image/png" href="Test.png" sizes="32x32" />
 	<script src="https://kit.fontawesome.com/141a88bda1.js" crossorigin="anonymous"></script>
   </head>
@@ -50,7 +52,7 @@
 						<!-- Slides -->
 						<div class="swiper-slide">
 							<div class="imgBx">
-								<img class="img1" src="Ceramic01.PNG">
+								<a href="Ceramic01.PNG" data-lightbox="mygallary" data-title="W45 x H80 cm"><img class="img1" src="Ceramic01.PNG"></a>
 							</div>
 							<div class="details">
 								<h3>Noëlla Nechelput <br><span>Titel</span></h3>
@@ -58,7 +60,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="imgBx">
-								<img class="img1" src="Ceramic02.PNG">
+								<a href="Ceramic02.PNG" data-lightbox="mygallary" data-title="W45 x H80 cm"><img class="img1" src="Ceramic02.PNG"></a>
 							</div>
 							<div class="details">
 								<h3>Noëlla Nechelput <br><span>Titel</span></h3>
@@ -66,7 +68,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="imgBx">
-								<img class="img1" src="Ceramic03.PNG">
+								<a href="Ceramic03.PNG" data-lightbox="mygallary" data-title="W45 x H80 cm"><img class="img1" src="Ceramic03.PNG"></a>
 							</div>
 							<div class="details">
 								<h3>Noëlla Nechelput <br><span>Titel</span></h3>
@@ -74,7 +76,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="imgBx">
-								<img class="img1" src="Ceramic04.PNG">
+								<a href="Ceramic04.PNG" data-lightbox="mygallary" data-title="W45 x H80 cm"><img class="img1" src="Ceramic04.PNG"></a>
 							</div>
 							<div class="details">
 								<h3>Noëlla Nechelput <br><span>Titel</span></h3>
@@ -113,6 +115,7 @@
 					pagination: {
 						el: '.swiper-pagination',
 						clickable: true,
+						type: 'fraction',
 					},
 				
 					// Navigation arrows
