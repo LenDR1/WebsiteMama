@@ -194,19 +194,30 @@ footer{
   opacity: 1;
 }
 .swiper-container {
-  width: 95%;
+  width: 90%;
   padding-top: 40px;
   padding-bottom: 50px;
   animation: drop 1s ease;
   position: relative;
 }
+.container2 {
+  width: 100%;
+  animation: drop 1s ease;
+  position: relative;
+}
 .swiper-button-next{
   font-weight: bold;
-  right: 50px;
 }
 .swiper-button-prev{
   font-weight: bold;
-  left: 50px;
+}
+@media screen and (max-width: 768px){
+  .swiper-button-next{
+    right: -10px;
+  }
+  .swiper-button-prev{
+    left: -10px;
+  }
 }
 .swiper-slide {
   background-position: center;
