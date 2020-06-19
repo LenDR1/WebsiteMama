@@ -215,11 +215,8 @@ footer{
   }
 }
 @media screen and (max-width: 850px){
-  .box{
-    flex-direction: column-reverse;
-  }
-  .box-text{
-    font-size: 16px;
+  .box .title-text{
+    font-size: 25px;
     width: 80%;
   }
   footer{
