@@ -219,6 +219,9 @@ footer{
     font-size: 25px;
     width: 80%;
   }
+  .box .title{
+    font-size: 50px;
+  }
   footer{
     height: 15vh;
   }

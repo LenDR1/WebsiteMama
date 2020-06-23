@@ -222,12 +222,10 @@ footer{
   border-bottom: 2px solid rgba(255,255,255,0.5);
   resize: none;
   margin-top: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .formContainer .formBx form .inputBox textarea{
   height: 100px;
-  font-weight: 300;
-  font-size: 16px;
-  letter-spacing: 0;
 }
 .formContainer .formBx form .inputBox input[type="submit"]:hover{
   background: #258ebeb0;
@@ -235,10 +233,9 @@ footer{
   box-shadow: rgb(44, 44, 44) 0px 2px 3px 1px;
 }
 .formContainer .formBx form .inputBox input[type="submit"]{
-  padding-top: 10px;
+  padding-top: 5px;
   border: none;
   text-transform: uppercase;
-  width: 50%;
   left: 50%;
   letter-spacing: 3px;
   transform: translateX(-50%);
@@ -279,8 +276,8 @@ footer{
 .formContainer .formBx form .inputBox textarea:valid{
   border-bottom-color: #1bfaad;
 }
-.formContainer .formBx form .inputBox ::placeholder{
-  color: #fff;
+.formContainer .formBx form .inputBox::placeholder{
+  color: rgba(255, 255, 255, 0.856);
 }
 #mytest:not(:placeholder-shown):not(:valid){
   border-bottom-color: #bd2c2c;
@@ -308,6 +305,12 @@ footer{
 @media screen and (max-width: 768px){
   .formContainer .formBx{
     width: 50%;
+  }
+  footer{
+    height: 15vh;
+  }
+  .formContainer .formBx form h2{
+    font-size: 25px;
   }
   .formContainer .imgBx{
     position: relative;
