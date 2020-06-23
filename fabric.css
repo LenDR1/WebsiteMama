@@ -496,3 +496,8 @@ footer{
 .footer-text ul li:nth-child(2) a:hover{
   background-color: #e4405f;
 }
+@media screen and (max-width: 768px){
+  footer{
+    height: 15vh;
+  }
+}
