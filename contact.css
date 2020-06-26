@@ -276,8 +276,14 @@ footer{
 .formContainer .formBx form .inputBox textarea:valid{
   border-bottom-color: #1bfaad;
 }
-.formContainer .formBx form .inputBox::placeholder{
-  color: rgba(255, 255, 255, 0.856);
+.formContainer .formBx form .inputBox input::placeholder{
+  color: rgba(255, 255, 255, 0.87);
+}
+.formContainer .formBx form .inputBox textarea::placeholder{
+  color: #fff;
+}
+.formContainer .formBx form .inputBox input::placeholder{
+  color: rgba(255, 255, 255, 0.87);
 }
 #mytest:not(:placeholder-shown):not(:valid){
   border-bottom-color: #bd2c2c;

@@ -214,29 +214,7 @@ footer{
     background-color: rgb(134, 134, 134);
   }
 }
-@media screen and (max-width: 850px){
-  .box .title-text{
-    font-size: 25px;
-    width: 80%;
-  }
-  .box .title{
-    font-size: 50px;
-  }
-  footer{
-    height: 15vh;
-  }
-  
-  .box-photo img{
-    height: 50vw;
-  }
-  .box-text{
-    flex: 2;
-    padding-bottom: 0px;
-    margin-right: 0px;
-    margin-bottom: 50px;
-    margin-top: -55px;
-  }
-}
+
 
 @keyframes drop{
   0%{
@@ -298,4 +276,27 @@ footer{
 }
 .footer-text ul li:nth-child(2) a:hover{
   background-color: #e4405f;
+}
+@media screen and (max-width: 850px){
+  .box .title-text{
+    font-size: 25px;
+    width: 80%;
+  }
+  .box .title{
+    font-size: 40px;
+  }
+  footer{
+    height: 15vh;
+  }
+  
+  .box-photo img{
+    height: 50vw;
+  }
+  .box-text{
+    flex: 2;
+    padding-bottom: 0px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-top: -55px;
+  }
 }
