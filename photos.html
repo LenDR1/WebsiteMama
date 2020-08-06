@@ -4,8 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 	<title>Noëlla Nechelput | Textile</title>
-	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
-	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+	<link rel="stylesheet" href="swiper.min.css">
 	<link rel="stylesheet" href="photos.css">
 	<link rel="stylesheet" href="lightbox.min.css">
 	<script src="lightbox-plus-jquery.min.js"></script>
@@ -25,13 +24,13 @@
 					<li class="weg"><a href="#">My Work</a>
 						<ul class="nav-dropdown">
 							<li><a href="fabric.html">Paint on Canvas</a></li>
-							<li><a href="#">Paint on Textile</a></li>
+							<li><a href="photos.html">Paint on Textile</a></li>
 							<li><a href="ceramic.html">Ceramic</a></li>
 						</ul>
 					</li>
 					<li class="toon"><a href="index.html">Homepage</a></li>
 					<li class="toon"><a href="fabric.html">Paint on Canvas</a></li>
-					<li class="toon"><a href="#">Paint on Textile</a></li>
+					<li class="toon"><a href="photos.html">Paint on Textile</a></li>
 					<li class="toon"><a href="ceramic.html">Ceramic</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="contact.html">Contact</a></li>
@@ -206,38 +205,33 @@
 				<div class="swiper-button-prev"></div>
 				<div class="swiper-button-next"></div>
 				</div>
-				
-				<script src="https://unpkg.com/swiper/js/swiper.js"></script>
-				<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-				<script>
-					var mySwiper = new Swiper ('.swiper-container', {
-					// Optional parameters
-					
-					effect: 'coverflow',
-						centeredSlides: true,
-						slidesPerView: 'auto',
-						coverflowEffect: {
-							rotate: 0,
-							stretch: 0,
-							depth: 80,
-							modifier: 1,
-							slideShadows : true,
-						},
+				<!-- Swiper JS -->
+				<script src="swiper.min.js"></script>
 
-					// If we need pagination
+				<!-- Initialize Swiper -->
+				<script>
+					var swiper = new Swiper('.swiper-container', {
+					effect: 'coverflow',
+					grabCursor: true,
+					centeredSlides: true,
+					slidesPerView: 'auto',
+					coverflowEffect: {
+						rotate: 0,
+						stretch: 0,
+						depth: 80,
+						modifier: 1,
+						slideShadows: true,
+					},
 					pagination: {
 						el: '.swiper-pagination',
-						clickable: true,
-						type: 'fraction',
+						dynamicBullets: true,
 					},
-				
-					// Navigation arrows
 					navigation: {
-						nextEl: '.swiper-button-next',
+						   nextEl: '.swiper-button-next',
 						prevEl: '.swiper-button-prev',
-					},
-					})
-					</script>
+					 },
+					});
+				</script>
 				</div>
 				</main>
 		</div>

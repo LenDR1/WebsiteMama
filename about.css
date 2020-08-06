@@ -26,6 +26,8 @@ nav{
   font-family: 'Montserrat', sans-serif;
   background: #272727;
   animation: drop 1s ease;
+  z-index: 2;
+  position: sticky;
 }
 .logo{
   color: white;

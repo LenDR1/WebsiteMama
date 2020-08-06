@@ -28,6 +28,8 @@ nav{
   font-family: 'Montserrat', sans-serif;
   background: #272727;
   animation: drop 1s ease;
+  position: sticky;
+  z-index: 2;
 }
 .logo{
   color: white;
@@ -98,6 +100,8 @@ nav{
 @media screen and (max-width: 767px){
   body{
     overflow-x: hidden;
+    background: url("Fabric04.jpg");
+    background-size: cover;
   }
   .nav-links{
     position: absolute;
@@ -168,7 +172,6 @@ footer{
   justify-content: center;
   align-items: center;
   min-height: 80vh;
-  animation: drop 1s ease;
   margin: 0 50px;
 }
 .box .title{
@@ -177,6 +180,7 @@ footer{
   margin-bottom: -50px;
   padding: 0;
   text-align: center;
+  animation: drop 1s ease;
 }
 .box .title h2{
   text-shadow: 2px 2px #000000;
@@ -185,6 +189,7 @@ footer{
   display:flex;
   width: 450px;
   text-align: center;
+  animation: drop 1s ease;
 }
 .box .title-text p{
   font-size: 35px;
