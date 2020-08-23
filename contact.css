@@ -26,6 +26,8 @@ nav{
   font-family: 'Montserrat', sans-serif;
   background: #272727;
   animation: drop 1s ease;
+  z-index: 2;
+  position: sticky;
 }
 .logo{
   color: white;
@@ -168,10 +170,10 @@ footer{
 }
 .box{
   display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 80vh;
-  animation: drop 1s ease;
+  width: 90%;
+  margin: auto;
+  align-items: center;
 }
 .formContainer{
   width: 90%;
@@ -396,4 +398,9 @@ footer{
 }
 .footer-text ul li:nth-child(2) a:hover{
   background-color: #e4405f;
+}
+@media screen and (max-width: 768px){
+  footer{
+    height: 15vh;
+  }
 }
