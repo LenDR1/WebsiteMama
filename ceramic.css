@@ -220,6 +220,12 @@ footer{
 .swiper-button-prev{
   font-weight: bold;
 }
+.swiper-button-next{
+  right: 30px;
+}
+.swiper-button-prev{
+  left: 30px;
+}
 
 
 .footer-text{

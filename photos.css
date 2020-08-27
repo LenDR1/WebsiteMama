@@ -160,10 +160,10 @@ nav{
   transform: rotate(45deg) translate(-5px,-6px);
 }
 .swiper-button-next{
-  right: 5%;
+  right: 30px;
 }
 .swiper-button-prev{
-  left: 5%;
+  left: 30px;
 }
 
 footer{
