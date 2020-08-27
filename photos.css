@@ -238,7 +238,7 @@ footer{
   background-size: cover;
   width: 300px;
   height: 450px;
-  background: #fff;
+  background: #755352;
 }
 .swiper-slide .imgBx{
   width: 100%;
@@ -263,17 +263,17 @@ footer{
   font-size: 20px;
   text-align: center;
   line-height: 20px;
+  color: rgb(228, 228, 228);
 }
 .swiper-slide .details h3 span{
   font-size: 16px;
-  color: rgb(230, 38, 38);
+  color: rgb(228, 228, 228);
 }
 .swiper-slide:nth-child(1) {
   background-position: center;
   background-size: cover;
   width: 270px;
   height: 480px;
-  background: #fff;
 }
 .swiper-slide:nth-child(1) .imgBx{
   width: 100%;
@@ -284,7 +284,6 @@ footer{
   background-size: cover;
   width: 540px;
   height: 360px;
-  background: #fff;
   margin-top: 50px;
 }
 .swiper-slide:nth-child(2) .imgBx{
@@ -296,7 +295,6 @@ footer{
   background-size: cover;
   width: 302px;
   height: 500px;
-  background: #fff;
 }
 .swiper-slide:nth-child(3) .imgBx{
   width: 100%;
@@ -307,7 +305,6 @@ footer{
   background-size: cover;
   width: 550px;
   height: 360px;
-  background: #fff;
   margin-top: 50px;
 }
 .swiper-slide:nth-child(4) .imgBx{
@@ -319,7 +316,6 @@ footer{
   background-size: cover;
   width: 260px;
   height: 500px;
-  background: #fff;
 }
 .swiper-slide:nth-child(5) .imgBx{
   width: 100%;
@@ -330,7 +326,6 @@ footer{
   background-size: cover;
   width: 480px;
   height: 360px;
-  background: #fff;
   margin-top: 50px;
 }
 .swiper-slide:nth-child(6) .imgBx{
@@ -342,7 +337,6 @@ footer{
   background-size: cover;
   width: 270px;
   height: 480px;
-  background: #fff;
 }
 .swiper-slide:nth-child(7) .imgBx{
   width: 100%;
@@ -353,7 +347,6 @@ footer{
   background-size: cover;
   width: 550px;
   height: 350px;
-  background: #fff;
   margin-top: 70px;
 }
 .swiper-slide:nth-child(8) .imgBx{
@@ -365,7 +358,6 @@ footer{
   background-size: cover;
   width: 340px;
   height: 500px;
-  background: #fff;
 }
 .swiper-slide:nth-child(9) .imgBx{
   width: 100%;
@@ -376,7 +368,6 @@ footer{
   background-size: cover;
   width: 400px;
   height: 330px;
-  background: #fff;
   margin-top: 70px;
 }
 .swiper-slide:nth-child(10) .imgBx{
@@ -388,7 +379,6 @@ footer{
   background-size: cover;
   width: 350px;
   height: 450px;
-  background: #fff;
   margin-top: 20px;
 }
 .swiper-slide:nth-child(11) .imgBx{
@@ -400,7 +390,6 @@ footer{
   background-size: cover;
   width: 525px;
   height: 300px;
-  background: #fff;
   margin-top: 70px;
 }
 .swiper-slide:nth-child(12) .imgBx{
@@ -412,7 +401,6 @@ footer{
   background-size: cover;
   width: 360px;
   height: 480px;
-  background: #fff;
 }
 .swiper-slide:nth-child(13) .imgBx{
   width: 100%;
@@ -423,7 +411,6 @@ footer{
   background-size: cover;
   width: 420px;
   height: 380px;
-  background: #fff;
   margin-top: 50px;
 }
 .swiper-slide:nth-child(14) .imgBx{
@@ -435,7 +422,6 @@ footer{
   background-size: cover;
   width: 270px;
   height: 500px;
-  background: #fff;
 }
 .swiper-slide:nth-child(15) .imgBx{
   width: 100%;
@@ -446,7 +432,6 @@ footer{
   background-size: cover;
   width: 525px;
   height: 325px;
-  background: #fff;
   margin-top: 70px;
 }
 .swiper-slide:nth-child(16) .imgBx{
@@ -458,7 +443,6 @@ footer{
   background-size: cover;
   width: 320px;
   height: 500px;
-  background: #fff;
 }
 .swiper-slide:nth-child(17) .imgBx{
   width: 100%;
@@ -469,7 +453,6 @@ footer{
   background-size: cover;
   width: 400px;
   height: 400px;
-  background: #fff;
   margin-top: 40px;
 }
 .swiper-slide:nth-child(18) .imgBx{
@@ -525,10 +508,10 @@ footer{
     height: 15vh;
   }
   .swiper-button-next{
-    right: 0px;
+    right: 5px;
   }
   .swiper-button-prev{
-    left: 0px;
+    left: 5px;
   }
   .swiper-container{
     width: 90%;
@@ -539,7 +522,6 @@ footer{
     background-size: cover;
     width: 360px;
     height: 260px;
-    background: #fff;
     margin-top: 100px;
   }
   .swiper-slide:nth-child(2) .imgBx{
@@ -551,7 +533,6 @@ footer{
     background-size: cover;
     width: 360px;
     height: 180px;
-    background: #fff;
     margin-top: 150px;
   }
   .swiper-slide:nth-child(4) .imgBx{
@@ -563,7 +544,6 @@ footer{
     background-size: cover;
     width: 360px;
     height: 280px;
-    background: #fff;
     margin-top: 100px;
   }
   .swiper-slide:nth-child(6) .imgBx{
@@ -575,7 +555,6 @@ footer{
     background-size: cover;
     width: 360px;
     height: 260px;
-    background: #fff;
     margin-top: 120px;
   }
   .swiper-slide:nth-child(8) .imgBx{
@@ -587,7 +566,6 @@ footer{
     background-size: cover;
     width: 360px;
     height: 300px;
-    background: #fff;
     margin-top: 90px;
   }
   .swiper-slide:nth-child(10) .imgBx{
@@ -599,7 +577,6 @@ footer{
     background-size: cover;
     width: 360px;
     height: 240px;
-    background: #fff;
     margin-top: 110px;
   }
   .swiper-slide:nth-child(12) .imgBx{
@@ -611,7 +588,6 @@ footer{
     background-size: cover;
     width: 360px;
     height: 330px;
-    background: #fff;
     margin-top: 70px;
   }
   .swiper-slide:nth-child(14) .imgBx{
@@ -623,7 +599,6 @@ footer{
     background-size: cover;
     width: 360px;
     height: 240px;
-    background: #fff;
     margin-top: 120px;
   }
   .swiper-slide:nth-child(16) .imgBx{
@@ -635,7 +610,6 @@ footer{
     background-size: cover;
     width: 320px;
     height: 380px;
-    background: #fff;
     margin-top: 40px;
   }
   .swiper-slide:nth-child(18) .imgBx{
