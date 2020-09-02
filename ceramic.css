@@ -311,74 +311,41 @@ footer{
 }
 .swiper-slide .imgBx{
   width: 100%;
-  height: 390px;
+  height: 100%;
 }
 .swiper-slide .imgBx .img1{
   width: 100%;
   height: 100%;
   transition: 0.5s;
 }
-.swiper-slide .details{
-  box-sizing: border-box;
-  font-size: 20px;
-  padding: 20px;
-}
 .swiper-scrollbar{
   display: none;
-}
-.swiper-slide .details h3{
-  margin: -8px 0;
-  padding: 0;
-  font-size: 20px;
-  text-align: center;
-  line-height: 20px;
-  color: rgb(228, 228, 228);
-}
-.swiper-slide .details h3 span{
-  font-size: 16px;
-  color: rgb(228, 228, 228);
 }
 .swiper-slide:nth-child(1) {
   background-position: center;
   background-size: cover;
-  width: 270px;
+  width: 290px;
   height: 500px;
-}
-.swiper-slide:nth-child(1) .imgBx{
-  width: 100%;
-  height: 440px;
 }
 .swiper-slide:nth-child(2) {
   background-position: center;
   background-size: cover;
-  width: 400px;
-  height: 460px;
-  margin-top: 20px;
-}
-.swiper-slide:nth-child(2) .imgBx{
-  width: 100%;
-  height: 400px;
+  width: 410px;
+  height: 410px;
+  margin-top: 40px;
 }
 .swiper-slide:nth-child(3) {
   background-position: center;
   background-size: cover;
-  width: 300px;
+  width: 350px;
   height: 500px;
-}
-.swiper-slide:nth-child(3) .imgBx{
-  width: 100%;
-  height: 440px;
 }
 .swiper-slide:nth-child(4) {
   background-position: center;
   background-size: cover;
-  width: 400px;
-  height: 460px;
-  margin-top: 20px;
-}
-.swiper-slide:nth-child(4) .imgBx{
-  width: 100%;
-  height: 400px;
+  width: 410px;
+  height: 410px;
+  margin-top: 40px;
 }
 
 @media screen and (max-width: 768px){
