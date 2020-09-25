@@ -1,6 +1,6 @@
 <?php
 
-if (isset($_POST['submit']){
+if (isset($_POST['submit'])){
     $name = $_POST['fullname'];
     $mailFrom = $_POST['email'];
     $message = $_POST['message'];
