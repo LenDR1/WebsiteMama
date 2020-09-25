@@ -45,23 +45,23 @@
 					<div class="box">
 						<div class="formContainer">
 							<div class="formBx">
-								<form>
+								<form action="contactform.php" method="post">
 									<h2>Contact me</h2>
 									<div class="inputBox">
 										<span>Full Name</span>
-										<input type="text" name="" required placeholder="...">
+										<input type="text" name="fullname" required placeholder="...">
 									</div>
 									<div class="inputBox">
 										<span>Email Address</span>
-										<input type="email" name="" placeholder="..." id="mytest" required>
+										<input type="email" name="email" placeholder="..." id="mytest" required>
 										
 									</div>
 									<div class="inputBox">
 										<span>Message Here...</span>
-										<textarea required placeholder="..."></textarea>
+										<textarea name="message" required placeholder="..."></textarea>
 									</div>
 									<div class="inputBox">
-										<input class="submit" type="submit" value="Send" name="">
+										<input class="submit" type="submit" value="Send" name="submit">
 									</div>
 								</form>
 							</div>
