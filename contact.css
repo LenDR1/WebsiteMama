@@ -171,14 +171,14 @@ footer{
 .box{
   display: flex;
   min-height: 80vh;
+  margin: 0;
   width: 90%;
   margin: auto;
   align-items: center;
+  justify-content: center;
 }
 .formContainer{
-  width: 90%;
-  max-width: 1100px;
-  margin: 20px;
+  width: 80%;
   height: 500px;
   background: #27272793;
   display: flex;
@@ -186,7 +186,7 @@ footer{
   align-items: center;
 }
 .formContainer .formBx{
-  width: 50%;
+  width: 70%;
 }
 .formContainer .formBx form{
   width: 90%;
