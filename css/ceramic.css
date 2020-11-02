@@ -304,7 +304,6 @@ footer{
   background-size: cover;
   width: 300px;
   height: 450px;
-  background: #755352;
 }
 .swiper-slide .imgBx{
   width: 100%;
@@ -349,9 +348,9 @@ footer{
   .swiper-slide:nth-child(2) {
     background-position: center;
     background-size: cover;
-    width: 320px;
-    height: 380px;
-    margin-top: 50px;
+    width: 350px;
+    height: 350px;
+    margin-top: 80px;
   }
   .swiper-slide:nth-child(2) .imgBx{
     width: 100%;
@@ -360,9 +359,9 @@ footer{
   .swiper-slide:nth-child(4) {
     background-position: center;
     background-size: cover;
-    width: 320px;
-    height: 380px;
-    margin-top: 50px;
+    width: 350px;
+    height: 350px;
+    margin-top: 80px;
   }
   .swiper-slide:nth-child(4) .imgBx{
     width: 100%;

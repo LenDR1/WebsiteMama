@@ -9,7 +9,7 @@ html, body {
   padding: 0;
   height: 100%;
   overflow-x: hidden;
-  background: url("Testj.jpg");
+  background: url("../img/ArtOnFabric.jpg");
   background-size: cover;
 }
 
