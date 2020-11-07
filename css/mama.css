@@ -100,7 +100,7 @@ nav{
 @media screen and (max-width: 767px){
   body{
     overflow-x: hidden;
-    background: url("Fabric04.jpg");
+    background: url("../img/Fabric04.jpg");
     background-size: cover;
   }
   .nav-links{
