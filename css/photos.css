@@ -238,7 +238,7 @@ footer{
   background-size: cover;
   width: 300px;
   height: 450px;
-  background: #755352;
+  background: #726161;
 }
 .swiper-slide .imgBx{
   width: 100%;
@@ -509,6 +509,16 @@ footer{
 .swiper-slide:nth-child(23) .imgBx{
   width: 100%;
   height: 340px;
+}
+.swiper-slide:nth-child(24) {
+  background-position: center;
+  background-size: cover;
+  width: 270px;
+  height: 490px;
+}
+.swiper-slide:nth-child(24) .imgBx{
+  width: 100%;
+  height: 430px;
 }
 
 .footer-text{
