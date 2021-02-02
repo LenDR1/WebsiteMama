@@ -521,6 +521,17 @@ footer{
   width: 100%;
   height: 100%;
 }
+.swiper-slide:nth-child(25) {
+  background-position: center;
+  background-size: cover;
+  width: 330px;
+  height: 430px;
+  margin-top: 13px;
+}
+.swiper-slide:nth-child(25) .imgBx{
+  width: 100%;
+  height: 100%;
+}
 
 .footer-text{
   position: relative;

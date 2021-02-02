@@ -343,6 +343,13 @@ footer{
   height: 410px;
   margin-top: 40px;
 }
+.swiper-slide:nth-child(5) {
+  background-position: center;
+  background-size: cover;
+  width: 440px;
+  height: 440px;
+  margin-top: 40px;
+}
 
 @media screen and (max-width: 768px){
   .swiper-slide:nth-child(2) {
