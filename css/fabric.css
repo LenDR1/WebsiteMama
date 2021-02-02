@@ -371,6 +371,17 @@ footer{
   width: 100%;
   height: 400px;
 }
+.swiper-slide:nth-child(12) {
+  background-position: center;
+  background-size: cover;
+  width: 430px;
+  height: 400px;
+  margin-top: 20px;
+}
+.swiper-slide:nth-child(12) .imgBx{
+  width: 100%;
+  height: 100%;
+}
 .swiper-button-next{
   right: 30px;
 }
@@ -487,5 +498,12 @@ footer{
   .swiper-slide:nth-child(11) .imgBx{
     width: 100%;
     height: 300px;
+  }
+  .swiper-slide:nth-child(12) {
+    background-position: center;
+    background-size: cover;
+    width: 340px;
+    height: 300px;
+    margin-top: 70px;
   }
 }
