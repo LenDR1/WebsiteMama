@@ -303,8 +303,8 @@ footer {
 .swiper-slide:nth-child(3) {
   background-position: center;
   background-size: cover;
-  width: 290px;
-  height: 500px;
+  width: 270px;
+  height: 480px;
 }
 .swiper-slide:nth-child(3) .imgBx {
   width: 100%;
@@ -345,12 +345,12 @@ footer {
 .swiper-slide:nth-child(7) {
   background-position: center;
   background-size: cover;
-  width: 270px;
-  height: 480px;
+  width: 340px;
+  height: 500px;
 }
 .swiper-slide:nth-child(7) .imgBx {
   width: 100%;
-  height: 420px;
+  height: 440px;
 }
 .swiper-slide:nth-child(8) {
   background-position: center;
@@ -387,13 +387,12 @@ footer {
 .swiper-slide:nth-child(11) {
   background-position: center;
   background-size: cover;
-  width: 350px;
-  height: 450px;
-  margin-top: 20px;
+  width: 340px;
+  height: 500px;
 }
 .swiper-slide:nth-child(11) .imgBx {
   width: 100%;
-  height: 390px;
+  height: 440px;
 }
 .swiper-slide:nth-child(12) {
   background-position: center;
@@ -563,6 +562,28 @@ footer {
 .swiper-slide:nth-child(27) .imgBx {
   width: 100%;
   height: 100%;
+}
+.swiper-slide:nth-child(28) {
+  background-position: center;
+  background-size: cover;
+  width: 270px;
+  height: 480px;
+  margin-top: 30px;
+}
+.swiper-slide:nth-child(28) .imgBx {
+  width: 100%;
+  height: 420px;
+}
+.swiper-slide:nth-child(29) {
+  background-position: center;
+  background-size: cover;
+  width: 350px;
+  height: 450px;
+  margin-top: 50px;
+}
+.swiper-slide:nth-child(29) .imgBx {
+  width: 100%;
+  height: 390px;
 }
 
 .footer-text {
