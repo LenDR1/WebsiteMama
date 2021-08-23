@@ -355,29 +355,30 @@ footer {
 .swiper-slide:nth-child(6) {
   background-position: center;
   background-size: cover;
-  width: 400px;
-  height: 500px;
+  width: 380px;
+  height: 480px;
 }
 .swiper-slide:nth-child(5) {
   background-position: center;
   background-size: cover;
-  width: 440px;
-  height: 440px;
+  width: 410px;
+  height: 410px;
   margin-top: 40px;
 }
 .swiper-slide:nth-child(7) {
   background-position: center;
   background-size: cover;
-  width: 350px;
-  height: 440px;
+  width: 330px;
+  height: 420px;
   margin-top: 30px;
 }
 .swiper-slide:nth-child(8) {
   background-position: center;
   background-size: cover;
-  width: 530px;
-  height: 380px;
-  margin-top: 60px;
+  width: 450px;
+  height: 300px;
+  margin-top: 70px;
+  margin-left: 20px;
 }
 
 @media screen and (max-width: 768px) {
