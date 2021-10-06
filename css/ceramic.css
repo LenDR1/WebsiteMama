@@ -329,7 +329,7 @@ footer {
 .swiper-slide:nth-child(1) {
   background-position: center;
   background-size: cover;
-  width: 290px;
+  width: 360px;
   height: 500px;
 }
 .swiper-slide:nth-child(2) {
