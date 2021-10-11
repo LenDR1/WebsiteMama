@@ -286,6 +286,10 @@ footer{
     font-size: 25px;
     align-content: center;
   }
+  #iframe1{
+    height: 450;
+    width: 600;
+  }
   .box .title{
     font-size: 40px;
   }
