@@ -629,6 +629,28 @@ footer {
   width: 100%;
   height: 440px;
 }
+.swiper-slide:nth-child(34) {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 450px;
+  margin-top: 15px;
+}
+.swiper-slide:nth-child(34) .imgBx {
+  width: 100%;
+  height: 440px;
+}
+.swiper-slide:nth-child(35) {
+  background-position: center;
+  background-size: cover;
+  width: 350px;
+  height: 450px;
+  margin-top: 15px;
+}
+.swiper-slide:nth-child(35) .imgBx {
+  width: 100%;
+  height: 440px;
+}
 
 .footer-text {
   position: relative;
