@@ -313,13 +313,13 @@ footer {
 .swiper-slide:nth-child(4) {
   background-position: center;
   background-size: cover;
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 400px;
   margin-top: 0px;
 }
 .swiper-slide:nth-child(4) .imgBx {
   width: 100%;
-  height: 440px;
+  height: 400px;
 }
 .swiper-slide:nth-child(5) {
   background-position: center;
@@ -665,13 +665,13 @@ footer {
 .swiper-slide:nth-child(37) {
   background-position: center;
   background-size: cover;
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 400px;
   margin-top: 15px;
 }
 .swiper-slide:nth-child(37) .imgBx {
   width: 100%;
-  height: 440px;
+  height: 400px;
 }
 
 .footer-text {
@@ -739,14 +739,14 @@ footer {
     width: 100%;
     height: 200px;
   }
-  .swiper-slide:nth-child(4) {
+  .swiper-slide:nth-child(36) {
     background-position: center;
     background-size: cover;
     width: 360px;
     height: 180px;
     margin-top: 150px;
   }
-  .swiper-slide:nth-child(4) .imgBx {
+  .swiper-slide:nth-child(36) .imgBx {
     width: 100%;
     height: 120px;
   }
