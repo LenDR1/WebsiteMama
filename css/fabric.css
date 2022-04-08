@@ -342,50 +342,49 @@ footer {
 .swiper-slide:nth-child(8) {
   background-position: center;
   background-size: cover;
-  width: 400px;
-  height: 460px;
-  margin-top: 20px;
+  width: 320px;
+  height: 500px;
 }
 .swiper-slide:nth-child(8) .imgBx {
   width: 100%;
-  height: 400px;
+  height: 440px;
 }
 .swiper-slide:nth-child(9) {
   background-position: center;
   background-size: cover;
-  width: 320px;
-  height: 500px;
-}
-.swiper-slide:nth-child(9) .imgBx {
-  width: 100%;
-  height: 440px;
-}
-.swiper-slide:nth-child(10) {
-  background-position: center;
-  background-size: cover;
   width: 400px;
   height: 460px;
   margin-top: 20px;
 }
-.swiper-slide:nth-child(10) .imgBx {
+.swiper-slide:nth-child(9) .imgBx {
   width: 100%;
   height: 400px;
 }
-.swiper-slide:nth-child(11) {
+.swiper-slide:nth-child(10) {
   background-position: center;
   background-size: cover;
   width: 430px;
   height: 400px;
   margin-top: 20px;
 }
-.swiper-slide:nth-child(11) .imgBx {
+.swiper-slide:nth-child(10) .imgBx {
   width: 100%;
   height: 100%;
+}
+.swiper-slide:nth-child(11) {
+  background-position: center;
+  background-size: cover;
+  width: 360px;
+  height: 500px;
+}
+.swiper-slide:nth-child(11) .imgBx {
+  width: 100%;
+  height: 440px;
 }
 .swiper-slide:nth-child(12) {
   background-position: center;
   background-size: cover;
-  width: 360px;
+  width: 200px;
   height: 500px;
 }
 .swiper-slide:nth-child(12) .imgBx {
@@ -395,7 +394,7 @@ footer {
 .swiper-slide:nth-child(13) {
   background-position: center;
   background-size: cover;
-  width: 200px;
+  width: 340px;
   height: 500px;
 }
 .swiper-slide:nth-child(13) .imgBx {
@@ -416,28 +415,28 @@ footer {
 .swiper-slide:nth-child(15) {
   background-position: center;
   background-size: cover;
-  width: 300px;
-  height: 460px;
-  margin-top: 20px;
+  width: 320px;
+  height: 500px;
 }
 .swiper-slide:nth-child(15) .imgBx {
   width: 100%;
-  height: 400px;
+  height: 440px;
 }
 .swiper-slide:nth-child(16) {
   background-position: center;
   background-size: cover;
-  width: 300px;
-  height: 500px;
+  width: 270px;
+  height: 460px;
+  margin-top: 10px;
 }
 .swiper-slide:nth-child(16) .imgBx {
   width: 100%;
-  height: 440px;
+  height: 420px;
 }
 .swiper-slide:nth-child(17) {
   background-position: center;
   background-size: cover;
-  width: 340px;
+  width: 440px;
   height: 500px;
 }
 .swiper-slide:nth-child(17) .imgBx {
@@ -447,30 +446,10 @@ footer {
 .swiper-slide:nth-child(18) {
   background-position: center;
   background-size: cover;
-  width: 440px;
-  height: 500px;
-}
-.swiper-slide:nth-child(18) .imgBx {
-  width: 100%;
-  height: 440px;
-}
-.swiper-slide:nth-child(19) {
-  background-position: center;
-  background-size: cover;
   width: 350px;
   height: 500px;
 }
-.swiper-slide:nth-child(19) .imgBx {
-  width: 100%;
-  height: 440px;
-}
-.swiper-slide:nth-child(20) {
-  background-position: center;
-  background-size: cover;
-  width: 360px;
-  height: 500px;
-}
-.swiper-slide:nth-child(20) .imgBx {
+.swiper-slide:nth-child(18) .imgBx {
   width: 100%;
   height: 440px;
 }
